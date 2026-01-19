@@ -36,3 +36,12 @@ local Window = Rayfield:CreateWindow({
       Key = {"AADITYALALAISGOD"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+
+Rayfield:Notify({
+   Title = " hI",
+   Content = " WELCOME BROS AND GUYS ! ARE YOU NIGGA ",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+
+local Tab = Window:CreateTab("Home tab ", 4483362458) -- Title, Image
